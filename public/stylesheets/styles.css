@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--- RESET ABOVE ---*/
+
+body {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo {
+	color: black;
+	font-family: "Comfortaa", "Lato", sans-serif;
+  float: left;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 20px 0 22px 0;
+}
+.logo a:hover {
+	color: black;
+}
+
+/*
+  ===========================================
+  Typography
+  ===========================================
+*/
+
+h1, h2, h4 {
+  color: #000;
+}
+h1, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+	font-family: "Comfortaa", "Lato", sans-serif;
+	color: #a9b2b9;
+	font-size: 21px;
+	line-height: 44px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h4 {
+	line-height: 26px;
+}
+h4, h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+ul {
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: .5px;
+}
+
+/*
+  ===========================================
+  Links
+  ===========================================
+*/
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+h3 a {
+	color: #a9b2b9;
+}
+.primary-header a,
+.primary-footer a {
+  color: #000;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #a9b2b9;
+}
+
+/*--- NAVIGATION ---*/
+.nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+  text-align: right;
+}
+.nav li {
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
+.nav li:last-child {
+	margin-right: 0;
+}
+
+/*--- CONTENT ----*/
+
+
+.content {
+  color: #000;
+  line-height: 36px;
+  text-align: center;
+}
+.container,
+.container-contact,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.container,
+.container-contact {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.container-contact {
+  height: auto;
+}
+.content-about {
+	line-height: 26px;
+	text-align: right;
+	padding-left: 100px;
+	padding-right: 30px;
+}
+.content-about img {
+	float: right;
+	width: 50%;
+}
+.content-about h2 {
+	font-size: 26px;
+}
+.content-about q {
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: .5px;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+.row {
+  background: #F5F5F5;
+	min-width: 960px;
+	padding-bottom: 5px;
+}
+.row img {
+	width: 100%;
+}
+/*
+  ===========================================
+  Buttons
+  ===========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+	padding: 10px 30px;
+}
+.btn-enter {
+  border: 1px solid #fff;
+}
+.btn-enter:hover {
+  background: #fff;
+  color: #000;
+}
+.btn-contact {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+	font-size: 14px;
+}
+.btn-contact:hover {
+	background: #E1FF0D;
+	border: 1px solid #c6c9cc;
+}
+/*
+  ===========================================
+  Primary footer
+  ===========================================
+*/
+
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+/*
+  ===========================================
+  Contact
+  ===========================================
+*/
+
+form {
+	margin-top: 30px;
+}
+input,
+select,
+textarea {
+	font: 300 12px/16px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contact label {
+	color: #000;
+	font-weight: 400;
+}
+.contact input,
+.contact select,
+.contact textarea {
+	border: 1px solid #c6c9cc;
+	border-radius: 2px;
+	color: #888;
+	display: block;
+	margin: 5px 0 15px 0;
+	padding: 5px 8px;
+}
+.contact input,
+.contact textarea {
+	width: 100%;
+}
+.contact select {
+	height: 34px;
+	width: 60px;
+}
+.contact textarea {
+	height: 78px;
+}
